@@ -28,8 +28,8 @@ install() {
     read -p "$(echo -e "请输入[1-2]：")" choose
     case $choose in
     0)
-        wget https://github.com/qingshan2048/stratumproxy/blob/main/stratumproxy -O /usr/bin/stratumproxy
-        wget https://github.com/qingshan2048/stratumproxy/blob/main/stratumproxy.service -O /etc/systemd/system/stratumproxy.service
+        wget https://github.com/qingshan2048/stratumproxy/blob/main/stratumproxy?raw=true -O /usr/bin/stratumproxy
+        wget https://github.com/qingshan2048/stratumproxy/blob/main/stratumproxy.service?raw=true -O /etc/systemd/system/stratumproxy.service
         ;;
     1)
         wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.3.1/stratumproxy_v1.3.1 -O /usr/bin/stratumproxy
