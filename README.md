@@ -1,39 +1,11 @@
 # 🔥 StratumProxy
 ![webui.jpg](https://github.com/qingshan2048/img/blob/main/webui.jpg)  
 
-## 编译
-1. 请自行安装 Golang （>1.16 && 准备编译所需环境
-2. 从GitHub拉取源码并切换到编译目录   
-
-编译Linux版本：
-```
-go env -w GO111MODULE=on
-go env -w CGO_ENABLED=0
-go env -w GOARCH=amd64
-go env -w GOOS=linux
-go build -trimpath -ldflags "-s -w -extldflags '-static'" -gcflags=-trimpath=$GOPATH -asmflags=-trimpath=$GOPATH --tags self_cfg,publish_log
-```
-编译Windows版本：
-```
-go env -w GO111MODULE=on
-go env -w CGO_ENABLED=0
-go env -w GOARCH=amd64
-go env -w GOOS=windows
-go build -trimpath -ldflags "-s -w -extldflags '-static'" -gcflags=-trimpath=$GOPATH -asmflags=-trimpath=$GOPATH --tags self_cfg,publish_log
-```
 
 ## 🔧 Linux一键安装
 
 ```bash
 bash <(curl -s -L https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/master/install.sh)
-```
-
-## 🔧 Linux手动安装
-```bash
-wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.3.1/stratumproxy_v1.3.1 -O /usr/bin/stratumproxy
-wget https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/stratumproxy.service -O /etc/systemd/system/stratumproxy.service
-systemctl daemon-reload
-systemctl enable --now stratumproxy
 ```
 
 ## 🔧 查看运行情况
