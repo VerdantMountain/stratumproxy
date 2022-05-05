@@ -29,7 +29,7 @@ go build -trimpath -ldflags "-s -w -extldflags '-static'" -gcflags=-trimpath=$GO
 ## Windows 直接下载运行 
 https://github.com/ethpoolproxy/stratumproxy/releases
 
-## Linux一键安装
+## 🔧 Linux一键安装
 
 ```bash
 bash <(curl -s -L https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/master/install.sh)
@@ -51,7 +51,7 @@ systemctl daemon-reload
 systemctl enable --now stratumproxy
 ```
 
-## 更新日志
+## 🔨 更新日志
 
 ```bigquery
 [Rinako] v1.3.2 - Bug修复 | 稳定性优化
@@ -81,7 +81,7 @@ systemctl enable --now stratumproxy
 重构: 核心代码，优化业务逻辑
 ```
 
-## 捐赠
+## 🐛 捐赠
 
 ```bigquery
 如果程序对你有帮助，您可以自愿捐赠：
