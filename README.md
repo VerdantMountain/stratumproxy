@@ -43,7 +43,7 @@ systemctl status stratumproxy
 ```
 
 ---
-## Linux手动安装
+## 🔧 Linux手动安装
 ```bash
 wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.3.1/stratumproxy_v1.3.1 -O /usr/bin/stratumproxy
 wget https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/stratumproxy.service -O /etc/systemd/system/stratumproxy.service
