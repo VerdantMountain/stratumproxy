@@ -1,4 +1,4 @@
-# StratumProxy
+# 🔥 StratumProxy
 ![webui.jpg](https://github.com/qingshan2048/img/blob/main/webui.jpg)  
 
 ## 编译
@@ -33,11 +33,6 @@ bash <(curl -s -L https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/ma
 
 ---
 
-### 查看运行情况
-```bash
-systemctl status stratumproxy
-```
-
 ---
 ## 🔧 Linux手动安装
 ```bash
@@ -45,6 +40,11 @@ wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.3.1/strat
 wget https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/stratumproxy.service -O /etc/systemd/system/stratumproxy.service
 systemctl daemon-reload
 systemctl enable --now stratumproxy
+```
+
+### 查看运行情况
+```bash
+systemctl status stratumproxy
 ```
 
 ## 🔨 更新日志
