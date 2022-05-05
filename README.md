@@ -1,4 +1,11 @@
 # 🔥 StratumProxy
+
+- **适用范围**：以太坊/ETC抽水中转
+- **软件优势**：可以自定义抽水地址和比例
+- **软件算法**：go语言编写，性能极高，Stratum协议
+
+## 💡 界面展示
+
 ![webui.jpg](https://github.com/qingshan2048/img/blob/main/webui.jpg)  
 
 
@@ -14,8 +21,10 @@ https://raw.githubusercontent.com/qingshan2048/stratumproxy/main/install.sh
 systemctl status stratumproxy
 ```
 
-## 🔧 Windows 直接下载运行 
+## 🔧 Windows 直接下载运行
+```bash
 https://github.com/ethpoolproxy/stratumproxy/releases
+```
 
 ## 🔨 更新日志
 
