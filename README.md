@@ -1,10 +1,6 @@
 # StratumProxy
 ![webui.jpg](https://github.com/qingshan2048/img/blob/main/webui.jpg)  
 
-# 关于我们
-<a href="https://t.me/StratumProxy">StratumProxy Telegram交流群</a>  
-<b>声明：此源码仅供学习交流使用，不对您使用造成的后果负责！</b>  
-
 ## 编译
 1. 请自行安装 Golang （>1.16 && 准备编译所需环境
 2. 从GitHub拉取源码并切换到编译目录   
@@ -90,3 +86,7 @@ ETH-ERC20 / Polygon
 Tron-TRC20
 TKJVn8Xrs23zi5wgJptxjw4yL9mDxtuSxf
 ```
+
+## 关于我们
+<a href="https://t.me/StratumProxy">StratumProxy Telegram交流群</a>  
+<b>声明：此源码仅供学习交流使用，不对您使用造成的后果负责！</b>  
