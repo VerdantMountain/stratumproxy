@@ -22,9 +22,6 @@ go env -w GOOS=windows
 go build -trimpath -ldflags "-s -w -extldflags '-static'" -gcflags=-trimpath=$GOPATH -asmflags=-trimpath=$GOPATH --tags self_cfg,publish_log
 ```
 
-## Windows 直接下载运行 
-https://github.com/ethpoolproxy/stratumproxy/releases
-
 ## 🔧 Linux一键安装
 
 ```bash
@@ -39,10 +36,13 @@ systemctl daemon-reload
 systemctl enable --now stratumproxy
 ```
 
-### 查看运行情况
+## 🔧 查看运行情况
 ```bash
 systemctl status stratumproxy
 ```
+
+## 🔧 Windows 直接下载运行 
+https://github.com/ethpoolproxy/stratumproxy/releases
 
 ## 🔨 更新日志
 
