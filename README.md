@@ -24,7 +24,7 @@ systemctl status stratumproxy
 ## 🔧 Windows 直接下载运行
 
 ```bash
-https://github.com/ethpoolproxy/stratumproxy/releases
+https://github.com/qingshan2048/stratumproxy
 ```
 
 ## 🔨 更新日志
