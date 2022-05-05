@@ -5,7 +5,8 @@
 ## 🔧 Linux一键安装
 
 ```bash
-bash <(curl -s -L https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/master/install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/qingshan2048/stratumproxy/main/install.sh)
+https://raw.githubusercontent.com/qingshan2048/stratumproxy/main/install.sh
 ```
 
 ## 👉 查看运行情况
