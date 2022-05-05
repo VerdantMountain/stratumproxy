@@ -13,15 +13,16 @@
 
 ```bash
 bash <(curl -s -L https://raw.githubusercontent.com/qingshan2048/stratumproxy/main/install.sh)
-https://raw.githubusercontent.com/qingshan2048/stratumproxy/main/install.sh
 ```
 
 ## 👉 查看运行情况
+
 ```bash
 systemctl status stratumproxy
 ```
 
 ## 🔧 Windows 直接下载运行
+
 ```bash
 https://github.com/ethpoolproxy/stratumproxy/releases
 ```
