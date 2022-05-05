@@ -1,5 +1,5 @@
 # StratumProxy
-![webui.jpg](webui.jpg)  
+![https://github.com/qingshan2048/img/blob/main/webui.jpg](webui.jpg)  
 
 # 关于我们
 <a href="https://t.me/StratumProxy">StratumProxy Telegram交流群</a>  
