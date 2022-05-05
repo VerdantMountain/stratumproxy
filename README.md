@@ -8,7 +8,7 @@
 bash <(curl -s -L https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/master/install.sh)
 ```
 
-## 🔧 查看运行情况
+## 👉 查看运行情况
 ```bash
 systemctl status stratumproxy
 ```
