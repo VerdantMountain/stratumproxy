@@ -77,7 +77,7 @@ systemctl enable --now stratumproxy
 重构: 核心代码，优化业务逻辑
 ```
 
-## 🐛 捐赠
+## 🐛 捐赠支持
 
 ```bigquery
 如果程序对你有帮助，您可以自愿捐赠：
