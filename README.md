@@ -5,12 +5,6 @@
 <a href="https://t.me/StratumProxy">StratumProxy Telegram交流群</a>  
 <b>声明：此源码仅供学习交流使用，不对您使用造成的后果负责！</b>  
 
-## 特别感谢
-- [TG] @FF8171346 慷慨提供自家矿厂的 110GHs 算力来 ~~(给我乱搞 蹦了好几次)~~ 测试软件
-
-## 更新日志
-v1.3.1：本程序经慎重考虑，现决定将此程序完全开源并不断更新维护，供矿友研究和使用！！！
-
 ## 编译
 1. 请自行安装 Golang （>1.16 && 准备编译所需环境
 2. 从GitHub拉取源码并切换到编译目录   
@@ -55,6 +49,36 @@ wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.3.1/strat
 wget https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/stratumproxy.service -O /etc/systemd/system/stratumproxy.service
 systemctl daemon-reload
 systemctl enable --now stratumproxy
+```
+
+## 更新日志
+
+```bigquery
+[Rinako] v1.3.2 - Bug修复 | 稳定性优化
+优化程序占用和加固稳定性
+优化: 安全写入保证不丢份额
+优化: 上游生命周期，解决游离上游导致崩溃
+优化: 抽水逻辑，更准能抽到了
+修复: 创建矿池参数合法性检测无效
+修复: 一些极端情况导致软件崩溃
+
+[Rinako] v1.3.1 - Bug修复 | 程序优化
+优化: 固定矿机抽水分数限制到 0.62 缓解抽水不准
+优化: 输出逻辑
+优化: 上游矿池 30 秒内没下发任务则重连
+优化: 登陆上游矿池超时 处理
+修复: 一些导致程序崩溃的问题
+
+[Rinako] v1.3.0 | Rinako
+优化: 用户体验，更多提示
+优化: WebUI 外观改善
+功能: WebUI 可添加矿池
+功能: 多矿池不同币种兼容
+功能: WebUI 可修改配置
+修复: 若干 Bug
+修复[轻度]: 多个认证包开启多个上游导致游离
+修复[严重]: 用户抽水时矿机断开导致软件卡死
+重构: 核心代码，优化业务逻辑
 ```
 
 ## 捐赠
