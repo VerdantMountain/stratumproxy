@@ -30,6 +30,14 @@ https://github.com/qingshan2048/stratumproxy
 ## 🔨 更新日志
 
 ```bigquery
+
+[Yoshino] v1.4.0 - Bug修复 | 专业矿机支持
+修复: TeamRedMiner 无法正常上线
+修复: 抽水携程卡死无法正常退出
+修复: WebUI 无响应
+优化: 软件携程互斥锁
+功能: 专业矿机 Eth Stratum 2 支持
+
 [Rinako] v1.3.2 - Bug修复 | 稳定性优化
 优化程序占用和加固稳定性
 优化: 安全写入保证不丢份额
