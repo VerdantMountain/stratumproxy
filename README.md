@@ -4,7 +4,7 @@
 - **软件优势**：可以自定义抽水地址和比例
 - **软件算法**：go语言编写，性能极高，Stratum协议
 
-## 💡 界面展示
+## 💡 软件展示
 
 ![webui.jpg](https://github.com/qingshan2048/img/blob/main/webui.jpg)  
 
