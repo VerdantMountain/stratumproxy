@@ -96,5 +96,8 @@ TKJVn8Xrs23zi5wgJptxjw4yL9mDxtuSxf
 对Layer 2的需求
 
 
+链下执行
+
+
 
 区块链技术诞生于2008年。自那以来，上
