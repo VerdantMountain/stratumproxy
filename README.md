@@ -85,3 +85,8 @@ TKJVn8Xrs23zi5wgJptxjw4yL9mDxtuSxf
 ## 关于我们
 <a href="https://github.com/qingshan2048/stratumproxy">StratumProxy 官方网站</a>  
 <b>声明：此源码仅供学习交流使用，不对您使用造成的后果负责！</b>  
+
+
+
+对Layer 2的需求
+
