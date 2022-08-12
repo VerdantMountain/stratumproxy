@@ -89,4 +89,12 @@ TKJVn8Xrs23zi5wgJptxjw4yL9mDxtuSxf
 
 
 对Layer 2的需求
+展性。
 
+
+
+对Layer 2的需求
+
+
+
+区块链技术诞生于2008年。自那以来，上
